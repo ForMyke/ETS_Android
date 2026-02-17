@@ -12,6 +12,7 @@
         "equatable",
         "flutter",
         "flutter_bloc",
+        "flutter_lints",
         "get_it",
         "http",
         "shared_preferences",
@@ -54,6 +55,13 @@
         "stream_channel",
         "test_api",
         "vector_math"
+      ]
+    },
+    {
+      "name": "flutter_lints",
+      "version": "6.0.0",
+      "dependencies": [
+        "lints"
       ]
     },
     {
@@ -122,7 +130,7 @@
     },
     {
       "name": "get_it",
-      "version": "8.3.0",
+      "version": "9.2.0",
       "dependencies": [
         "async",
         "collection",
@@ -294,6 +302,11 @@
         "clock",
         "collection"
       ]
+    },
+    {
+      "name": "lints",
+      "version": "6.1.0",
+      "dependencies": []
     },
     {
       "name": "url_launcher_windows",
